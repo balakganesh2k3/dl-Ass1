@@ -1,2 +1,5 @@
 data/
 .venv/
+# Dataset files
+A1_data_75/images.npy
+A1_data_150/images.npy
