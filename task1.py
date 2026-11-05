@@ -1,22 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
-import sys, torch
-print(sys.executable)
-print(torch.__version__, torch.version.cuda, torch.__file__)
-
-
-# In[2]:
-
-
-import torch
-print(torch.__version__, torch.cuda.is_available(), torch.cuda.get_device_name(0))
-
-
-# In[3]:
 
 
 import copy
